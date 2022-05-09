@@ -14,7 +14,7 @@ describe("Unit Tests for Spiderman Class", () => {
   });
 
   test('2) Use the method getInfo()', () =>{
-    const tomHolland = new Spiderman('Spiderman Marvel', 25, 'Kenny Rogers', 3, 'Jackass')
+    const tomHolland = new Spiderman('Spiderman Marvel', 25, 'Kenny Rogers', 3, 'Jackass  ')
 
     expect(tomHolland.getInfo()).toBe("Hi I´m Kenny Rogers and this is Jackass")
   });
